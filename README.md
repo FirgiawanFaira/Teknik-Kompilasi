@@ -1,5 +1,5 @@
 # Teknik-Kompilasi
-# Materi Teknik Kompilasi dengan Python (14 Pertemuan)
+# Materi Teknik Kompilasi (14 Pertemuan)
 
 ## **Pertemuan 1: Pendahuluan Teknik Kompilasi**
 - Definisi kompilasi dan interpreter
@@ -65,49 +65,29 @@ result = parser.parse("3 + 5 * 2")
 print(result)
 ```
 
-## **Pertemuan 4: Pembuatan AST (Abstract Syntax Tree)**
-- Konsep AST dan manfaatnya
-- **Contoh:** Pembuatan AST dengan `ast` module Python
+## **Pertemuan 4 - 6: Teknik Top Downparsing dengan recursive descent parser dan LL(1)
+- Teknik Top-Down Parsing adalah metode parsing yang membangun pohon sintaksis mulai dari simbol awal (start symbol)
+- Secara bertahap menguraikan aturan produksi menuju terminal. Dua teknik utama dalam Top-Down Parsing adalah Recursive Descent Parser dan LL(1) Parser.
 
-## **Pertemuan 5: Analisis Semantik**
-- Tipe data dan pengecekan tipe
-- Scope dan binding
-- **Contoh:** Implementasi tabel simbol menggunakan dictionary
+## **Pertemuan 7 (E-learning)
 
-## **Pertemuan 6: Intermediate Representation (IR)**
-- Three Address Code (TAC)
-- **Contoh:** Konversi ekspresi ke TAC
+## **Pertemuan 8 - 9: Teknik Bottom-up Parsing dengan LR (0), SLR (1), LR(1), LALR(1)
+- Bottom-Up Parsing adalah teknik parsing yang membangun pohon sintaksis dari daun (token) ke akar (start symbol) dengan melakukan reduksi terhadap aturan grammar.
 
-## **Pertemuan 7: Optimasi Kode**
-- Optimasi pada IR (Dead Code Elimination, Constant Folding)
-- **Contoh:** Implementasi optimasi sederhana di Python
+## **Pertemuan 10 : Proses Kerja one pass compiler
+- One-pass compiler adalah kompilator yang menerjemahkan kode sumber ke dalam kode mesin dalam satu lintasan (single pass) tanpa kembali ke bagian kode sebelumnya.
 
-## **Pertemuan 8: Generasi Kode**
-- Pengenalan LLVM dan bytecode
-- **Contoh:** Menggunakan `llvmlite` untuk menghasilkan bytecode
+## **Pertemuan 11 : Membuat Translator Scheme dengan bahasa semantik dan translator scheme
 
-## **Pertemuan 9: Implementasi Backend Kompiler**
-- Translasi IR ke assembly sederhana
-- **Contoh:** Menulis file `.asm` dari Python
 
-## **Pertemuan 10: Pembuatan Interpreter**
-- Implementasi interpreter berbasis AST
-- **Contoh:** Evaluasi AST dalam Python
+## **Pertemuan 12 : Membangun Intermediate Code dan Mengelola Tabel Simbol
 
-## **Pertemuan 11: Analisis dan Debugging Kompiler**
-- Teknik debugging dalam pembuatan kompiler
-- **Contoh:** Logging dan visualisasi parse tree
+## **Pertemuan 13 : Membuat Optimasi Parser Linier Optimazation
 
-## **Pertemuan 12: Studi Kasus Kompiler Python**
-- Menelusuri bagaimana Python mengompilasi kode
-- **Contoh:** Melihat bytecode menggunakan `dis` module
+## **Pertemuan 14 (E-Learning)
 
-## **Pertemuan 13: Ujian Praktek**
-- Implementasi mini-compiler dari awal
 
-## **Pertemuan 14: Presentasi Proyek Akhir**
-- Mahasiswa mempresentasikan mini-compiler mereka
 
----
-Dokumen ini memberikan struktur lengkap untuk kuliah **Teknik Kompilasi** dengan Python. Tiap pertemuan mencakup konsep dan implementasi langsung agar lebih aplikatif.
+
+
 
