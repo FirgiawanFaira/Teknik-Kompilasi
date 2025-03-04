@@ -16,3 +16,4 @@ Contoh kompilator yang sering digunakan:
 ✅ Javac untuk bahasa Java.
 ✅ Python (CPython) memiliki interpreter, tetapi juga mendukung kompilasi ke bytecode.
 
+
